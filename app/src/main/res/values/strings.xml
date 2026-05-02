@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Photos-CS213</string>
+    <string-array name="tag_types">
+        <item>person</item>
+        <item>location</item>
+    </string-array>
+</resources>
