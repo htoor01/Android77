@@ -27,7 +27,7 @@
 
 ### Development Approach
 
-The use of GenAI was mostly limited to code refinement and debugging.
+The use of GenAI was mostly limited to code refinement, debugging, and documentation.
 
 #### 1. Logic Porting & Model Setup
 - **Manually adapted** Album, Photo, and Tag models from JavaFX to Android
