@@ -13,6 +13,7 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.appcompat.widget.Toolbar;
 
 import com.example.photos_cs213.activities.AlbumDetailActivity;
 import com.example.photos_cs213.activities.SearchActivity;
@@ -34,6 +35,9 @@ public class MainActivity extends AppCompatActivity implements AlbumAdapter.OnAl
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
         dataManager = DataManager.getInstance(this);
 
